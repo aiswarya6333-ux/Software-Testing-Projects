@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Prestashop Website Suite" preserve-order="true">
+  <test name="Prestashop Website Test">
+    <classes>
+      <class name="registrationPage.RegistrationPgTest"/>
+      <class name="signInPage.SignInPgTest"/>
+      <class name="homePage.HomePgTest"/>
+      <class name="productSrchAndNvgn.ProductSrchAndNvgnTest"/>
+      <class name="productDetails.ProductDetailsTest"/>
+      <class name="shoppingCartPage.ShoppingCartPgTest"/>
+      <class name="checkoutAndOrderPlacement.CheckoutAndOdrPlcmntTest"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

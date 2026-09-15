@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Prestashop Website Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Prestashop Website Test(failed)">
+    <classes>
+      <class name="productSrchAndNvgn.ProductSrchAndNvgnTest">
+        <methods>
+          <include name="partialProductSearch"/>
+          <include name="startBrowser"/>
+          <include name="productSearchByClickingSearchIcon"/>
+          <include name="invalidKeyword"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- productSrchAndNvgn.ProductSrchAndNvgnTest -->
+      <class name="productDetails.ProductDetailsTest">
+        <methods>
+          <include name="verifySearchFromProductPage"/>
+          <include name="verifySizeAndColorSelection"/>
+          <include name="verifyProductDescription"/>
+          <include name="verifyProductImage"/>
+          <include name="verifyProductDetailsPageOpens"/>
+          <include name="verifyQuickViewOptions"/>
+          <include name="verifyProductName"/>
+          <include name="verifyProductDetailsSection"/>
+          <include name="verifyProductPrice"/>
+          <include name="verifyTaxInformation"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAddProductToCart"/>
+          <include name="verifyProductCardDisplayed"/>
+          <include name="verifyProductDataSheet"/>
+          <include name="startBrowser"/>
+          <include name="verifyCommentsReviewSection"/>
+          <include name="verifyProductDiscount"/>
+          <include name="verifyCartQuantityUpdate"/>
+          <include name="verifyQuickView"/>
+          <include name="verifyProductQuantityIncreaseDecrease"/>
+        </methods>
+      </class> <!-- productDetails.ProductDetailsTest -->
+      <class name="homePage.HomePgTest">
+        <methods>
+          <include name="verifyPromotionBanner"/>
+          <include name="verifyFeaturedProducts"/>
+          <include name="verifyProductQuantityAndAddToCart"/>
+          <include name="verifyHomePageLoadsSuccessfullyandBannerSlider"/>
+          <include name="startBrowser"/>
+          <include name="verifyFooterSection"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- homePage.HomePgTest -->
+      <class name="shoppingCartPage.ShoppingCartPgTest">
+        <methods>
+          <include name="verifyProductPriceInCart"/>
+          <include name="verifyIncreaseQuantity"/>
+          <include name="verifyOrderSummary"/>
+          <include name="verifyShoppingCartPage"/>
+          <include name="verifyDecreaseQuantity"/>
+          <include name="startBrowser"/>
+          <include name="verifyProceedToCheckout"/>
+          <include name="verifyRemoveProduct"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- shoppingCartPage.ShoppingCartPgTest -->
+      <class name="checkoutAndOrderPlacement.CheckoutAndOdrPlcmntTest">
+        <methods>
+          <include name="verifyProductDetailsInAddressPage"/>
+          <include name="verifyRegisteredUserCheckout"/>
+          <include name="verifyBackToShipping"/>
+          <include name="verifyOrderTotal"/>
+          <include name="verifyOnlyOnePaymentMethodSelected"/>
+          <include name="verifyOrderConfirmationPage"/>
+          <include name="verifyShippingCost"/>
+          <include name="verifyCheckoutSteps"/>
+          <include name="verifyTermsLink"/>
+          <include name="verifyGuestCheckoutNavigation"/>
+          <include name="verifyMandatoryFields"/>
+          <include name="closeBrowser"/>
+          <include name="verifyPersonalInformationPage"/>
+          <include name="verifyBlankPersonalInformationValidation"/>
+          <include name="verifyPostalCodeField"/>
+          <include name="startBrowser"/>
+          <include name="verifyTermsAndConditions"/>
+          <include name="verifyPaymentMethods"/>
+          <include name="verifyProductDetailsInCheckout"/>
+          <include name="verifyCountryDropdown"/>
+          <include name="verifyProceedToCheckout"/>
+        </methods>
+      </class> <!-- checkoutAndOrderPlacement.CheckoutAndOdrPlcmntTest -->
+    </classes>
+  </test> <!-- Prestashop Website Test(failed) -->
+</suite> <!-- Failed suite [Prestashop Website Suite] -->
